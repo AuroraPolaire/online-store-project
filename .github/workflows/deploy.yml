@@ -13,7 +13,7 @@ jobs:
 
       - name: Install, Lint, Build 🔧
         run: |
-          npm ci
+          npm install
           npm run lint
           npm run build
 
