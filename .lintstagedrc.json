@@ -1,0 +1,5 @@
+{
+  "*.html": ["eslint", "prettier --write"],
+  "*.scss": "prettier --write",
+  "*.{js,jsx}": ["npm run format", "npm run lint --max-warnings=0", "git add ."]
+}
